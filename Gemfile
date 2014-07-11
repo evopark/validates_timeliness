@@ -21,3 +21,16 @@ end
 group :active_record do
   gem 'sqlite3-ruby', :require => 'sqlite3'
 end
+
+group :pry do
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+  # table output
+  gem 'hirb'
+  # git integration
+  gem 'pry-git'
+  # on-the-fly syntax highlighting
+  gem 'coolline'
+  gem 'awesome_print'
+end

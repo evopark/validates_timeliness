@@ -6,7 +6,7 @@ require 'active_record'
 require 'action_view'
 require 'timecop'
 require 'rspec_tag_matchers'
-
+require 'pry'
 require 'validates_timeliness'
 
 require 'support/test_model'
