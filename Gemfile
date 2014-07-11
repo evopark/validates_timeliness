@@ -2,9 +2,9 @@ source 'http://rubygems.org'
 
 gemspec
 
-gem 'rails', '~> 3.2.6'
-gem 'rspec', '~> 2.8'
-gem 'rspec-rails', '~> 2.8'
+gem 'rails', '~> 4.1'
+gem 'rspec', '~> 2.99'
+gem 'rspec-rails'
 gem 'timecop'
 gem 'rspec_tag_matchers'
 gem 'ruby-debug', :platforms => [:ruby_18, :jruby]
@@ -13,7 +13,7 @@ gem 'appraisal'
 gem 'sqlite3'
 
 group :mongoid do
-  gem 'mongoid', '~> 2.3.0'
+  gem 'mongoid'
   gem 'bson_ext'
   gem 'system_timer', :platforms => [:ruby_18]
 end
